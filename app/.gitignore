@@ -1,0 +1,24 @@
+# Sources:
+# [docs](https://git-scm.com/docs/gitignore)
+# [swift](https://github.com/github/gitignore/blob/master/Swift.gitignore#L28)
+# [xcode](https://github.com/github/gitignore/blob/master/Global/Xcode.gitignore)
+# [gitignore.io](https://www.gitignore.io/api/xcode,swift,carthage,objective-c)
+
+### Carthage ###
+
+## Builds 
+Carthage/Checkouts
+Carthage/Build
+
+### Xcode ###
+
+## User settings
+xcuserdata/
+
+### Xcode Patch ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings

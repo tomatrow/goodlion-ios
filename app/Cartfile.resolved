@@ -1,0 +1,4 @@
+github "Alamofire/Alamofire" "5.0.0-beta.3"
+github "jorgenhenrichsen/SwiftAudio" "0.7.0"
+github "nmdias/FeedKit" "8.1.0"
+github "onevcat/Kingfisher" "5.2.0"
