@@ -1,0 +1,61 @@
+{
+  "_class": "symbolInstance",
+  "booleanOperation": -1,
+  "clippingMaskMode": 0,
+  "do_objectID": "83A7464F-414B-4EDA-AD97-562C0EB2B611",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 92,
+    "width": 375,
+    "x": 0,
+    "y": 344
+  },
+  "hasClippingMask": false,
+  "horizontalSpacing": 0,
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "name": "Episode Cell",
+  "nameIsFixed": false,
+  "overrideValues": [
+    {
+      "_class": "overrideValue",
+      "do_objectID": "0F23FB52-A5ED-4501-8777-ABB94FDEFC62",
+      "overrideName": "B272AD02-D927-49A5-B93C-5192774D9132_stringValue",
+      "value": "#2 | Why start a Podcast about Preaching? - Brian Higgins"
+    },
+    {
+      "_class": "overrideValue",
+      "do_objectID": "7B5FB074-3EE1-4BE9-9182-1DF84CD4B76A",
+      "overrideName": "A7C1A7D9-4C78-427A-A16C-46D977BD043C_stringValue",
+      "value": "March 25 - 51:33"
+    }
+  ],
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "scale": 1,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endMarkerType": 0,
+    "miterLimit": 10,
+    "startMarkerType": 0,
+    "windingRule": 1
+  },
+  "symbolID": "FAD4556A-1912-425C-BC50-A8819CE6232B",
+  "verticalSpacing": 0
+}

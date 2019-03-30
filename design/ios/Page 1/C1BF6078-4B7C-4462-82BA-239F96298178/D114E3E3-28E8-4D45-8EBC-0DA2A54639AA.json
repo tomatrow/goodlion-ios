@@ -1,0 +1,52 @@
+{
+  "_class": "symbolInstance",
+  "booleanOperation": -1,
+  "clippingMaskMode": 0,
+  "do_objectID": "D114E3E3-28E8-4D45-8EBC-0DA2A54639AA",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "do_objectID": "8C6A910B-766B-4673-B89B-5D38F2B3AD44",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "do_objectID": "C5D0F31F-C487-4806-8173-485EE046911E",
+    "height": 44,
+    "width": 375,
+    "x": 0,
+    "y": 1
+  },
+  "hasClippingMask": false,
+  "horizontalSpacing": 0,
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "name": "Bars / Status Bar / iPhone / On Light",
+  "nameIsFixed": false,
+  "overrideValues": [
+  ],
+  "resizingConstraint": 26,
+  "resizingType": 0,
+  "rotation": 0,
+  "scale": 1,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "do_objectID": "1D59E125-0322-4790-BC37-D17FDF792156",
+    "endMarkerType": 0,
+    "miterLimit": 10,
+    "startMarkerType": 0,
+    "windingRule": 1
+  },
+  "symbolID": "47D29C40-F90C-4AFC-8CE4-943FB3083CF4",
+  "verticalSpacing": 0
+}

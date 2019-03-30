@@ -1,0 +1,52 @@
+{
+  "_class": "symbolInstance",
+  "booleanOperation": -1,
+  "clippingMaskMode": 0,
+  "do_objectID": "0E7AEA02-31E0-4A33-87A3-E57087D33FC1",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "do_objectID": "EF6124B1-C70C-46F1-A752-5A964E073BAA",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "do_objectID": "4B7F758C-36DE-4EB0-B6E5-C8A280CCD470",
+    "height": 2,
+    "width": 407,
+    "x": 1,
+    "y": 188
+  },
+  "hasClippingMask": false,
+  "horizontalSpacing": 0,
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "name": "Controls / TableViewCell / x / Borders / Light - Edge to Edge",
+  "nameIsFixed": false,
+  "overrideValues": [
+  ],
+  "resizingConstraint": 34,
+  "resizingType": 0,
+  "rotation": 0,
+  "scale": 1,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "do_objectID": "B2EE3A49-9B14-400E-8E5C-7C56B2B0A8B3",
+    "endMarkerType": 0,
+    "miterLimit": 10,
+    "startMarkerType": 0,
+    "windingRule": 1
+  },
+  "symbolID": "7CD0D6EA-AFF1-4ECD-BCC2-502D1206EE1A",
+  "verticalSpacing": 0
+}

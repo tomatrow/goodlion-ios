@@ -1,0 +1,79 @@
+{
+  "_class": "symbolInstance",
+  "booleanOperation": -1,
+  "clippingMaskMode": 0,
+  "do_objectID": "1BD74F7F-BA83-4E13-B2DF-6E0C8D246914",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "flow": {
+    "_class": "MSImmutableFlowConnection",
+    "animationType": 1,
+    "destinationArtboardID": "C1BF6078-4B7C-4462-82BA-239F96298178",
+    "do_objectID": "DCD8455F-7351-4756-9D97-8A9AC686C2AA"
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 119,
+    "width": 376,
+    "x": 0,
+    "y": 0
+  },
+  "hasClippingMask": false,
+  "horizontalSpacing": 0,
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "name": "Bars / Navigation Bar / iPhone - Compact / Light - Default",
+  "nameIsFixed": false,
+  "overrideValues": [
+    {
+      "_class": "overrideValue",
+      "do_objectID": "117BA6AC-E275-465D-90C0-8B5BCE36C95D",
+      "overrideName": "6D632EFE-30FD-459A-AC51-F4D25C83CBC7/6A05BAAF-F6B8-463A-8142-668F1773F80E_stringValue",
+      "value": " "
+    },
+    {
+      "_class": "overrideValue",
+      "do_objectID": "FB2D3C11-2AD3-441F-83F1-F603CAA8F619",
+      "overrideName": "6D632EFE-30FD-459A-AC51-F4D25C83CBC7/5C8C49DF-0410-4F03-90CD-711E73EC56C2_flowDestination",
+      "value": ""
+    },
+    {
+      "_class": "overrideValue",
+      "do_objectID": "F853CE46-1AC2-4F26-8F96-A76737306BF5",
+      "overrideName": "53A844A1-67E8-4486-9ED8-3B0C116E6042_stringValue",
+      "value": "#1 | Grief and Loss - An Interview..."
+    },
+    {
+      "_class": "overrideValue",
+      "do_objectID": "1A2A3570-2160-4F95-9E94-D5A1B4EAD326",
+      "overrideName": "7867B146-065C-4A27-9BA3-7C711AD1C2D9_symbolID",
+      "value": ""
+    }
+  ],
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "scale": 1,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endMarkerType": 0,
+    "miterLimit": 10,
+    "startMarkerType": 0,
+    "windingRule": 1
+  },
+  "symbolID": "E5EDE4E7-9BE4-48D2-9602-6CAAEE1CFF62",
+  "verticalSpacing": 0
+}

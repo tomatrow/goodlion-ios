@@ -1,8 +1,15 @@
 {
-  "_class": "page",
+  "_class": "artboard",
+  "backgroundColor": {
+    "_class": "color",
+    "alpha": 1,
+    "blue": 1,
+    "green": 1,
+    "red": 1
+  },
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "9394638B-EC33-47C8-BC0A-FD6792D8E315",
+  "do_objectID": "9D88368D-6294-4EE0-820A-F734889145B1",
   "exportOptions": {
     "_class": "exportOptions",
     "exportFormats": [
@@ -15,14 +22,15 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 0,
-    "width": 0,
-    "x": 0,
-    "y": 0
+    "height": 667,
+    "width": 375,
+    "x": 524,
+    "y": 246
   },
   "groupLayout": {
     "_class": "MSImmutableFreeformGroupLayout"
   },
+  "hasBackgroundColor": false,
   "hasClickThrough": true,
   "hasClippingMask": false,
   "horizontalRulerData": {
@@ -31,33 +39,43 @@
     "guides": [
     ]
   },
+  "includeBackgroundColorInExport": true,
   "includeInCloudUpload": true,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
+  "isFlowHome": false,
   "isLocked": false,
   "isVisible": true,
   "layerListExpandedType": 0,
   "layers": [
     {
-      "class": "artboard",
-      "id": "9CE1EB98-18E6-466A-8BED-A539DEFCB039"
+      "class": "symbolInstance",
+      "id": "F1267C31-3083-41D1-9F15-143A3583D0B8"
     },
     {
-      "class": "artboard",
-      "id": "C1BF6078-4B7C-4462-82BA-239F96298178"
+      "class": "symbolInstance",
+      "id": "6FF8BEF2-854C-4602-92F7-0EAE543E6E36"
     },
     {
-      "class": "artboard",
-      "id": "9D88368D-6294-4EE0-820A-F734889145B1"
+      "class": "symbolInstance",
+      "id": "CBAE6D62-1B75-4B03-B73B-6BB2B956FCD3"
     }
   ],
-  "name": "Page 1",
-  "nameIsFixed": false,
+  "name": "Podcasts",
+  "nameIsFixed": true,
+  "presetDictionary": {
+    "allowResizedMatching": 1,
+    "height": 667,
+    "name": "iPhone 8",
+    "offersLandscapeVariant": 1,
+    "width": 375
+  },
+  "resizesContent": true,
   "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
-  "shouldBreakMaskChain": false,
+  "shouldBreakMaskChain": true,
   "style": {
     "_class": "style",
     "endMarkerType": 0,

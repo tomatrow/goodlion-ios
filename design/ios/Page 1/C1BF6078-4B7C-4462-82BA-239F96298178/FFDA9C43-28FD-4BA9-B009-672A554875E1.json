@@ -1,0 +1,79 @@
+{
+  "_class": "symbolInstance",
+  "booleanOperation": -1,
+  "clippingMaskMode": 0,
+  "do_objectID": "FFDA9C43-28FD-4BA9-B009-672A554875E1",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "flow": {
+    "_class": "MSImmutableFlowConnection",
+    "animationType": 1,
+    "destinationArtboardID": "9D88368D-6294-4EE0-820A-F734889145B1",
+    "do_objectID": "7A6E8592-5A2C-40F7-9CEF-B58C886EEBD6"
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 88,
+    "width": 375,
+    "x": 0,
+    "y": 1
+  },
+  "hasClippingMask": false,
+  "horizontalSpacing": 0,
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "name": "Bars / Navigation Bar / iPhone - Compact / Light - Default",
+  "nameIsFixed": false,
+  "overrideValues": [
+    {
+      "_class": "overrideValue",
+      "do_objectID": "F85275E8-5960-4DEB-9D83-F8199A4E5146",
+      "overrideName": "6D632EFE-30FD-459A-AC51-F4D25C83CBC7/5C8C49DF-0410-4F03-90CD-711E73EC56C2_flowDestination",
+      "value": ""
+    },
+    {
+      "_class": "overrideValue",
+      "do_objectID": "EFFD1A35-9F44-4E89-8A7D-19D45FB7576D",
+      "overrideName": "6D632EFE-30FD-459A-AC51-F4D25C83CBC7/6A05BAAF-F6B8-463A-8142-668F1773F80E_stringValue",
+      "value": " "
+    },
+    {
+      "_class": "overrideValue",
+      "do_objectID": "D3A4ECD5-3958-4D2B-B05A-083B3DAAB750",
+      "overrideName": "53A844A1-67E8-4486-9ED8-3B0C116E6042_stringValue",
+      "value": "The Goodlion Podcast"
+    },
+    {
+      "_class": "overrideValue",
+      "do_objectID": "15D6DD98-8E2C-4D43-A338-D54581B73911",
+      "overrideName": "7867B146-065C-4A27-9BA3-7C711AD1C2D9_symbolID",
+      "value": ""
+    }
+  ],
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "scale": 1,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endMarkerType": 0,
+    "miterLimit": 10,
+    "startMarkerType": 0,
+    "windingRule": 1
+  },
+  "symbolID": "E5EDE4E7-9BE4-48D2-9602-6CAAEE1CFF62",
+  "verticalSpacing": 0
+}

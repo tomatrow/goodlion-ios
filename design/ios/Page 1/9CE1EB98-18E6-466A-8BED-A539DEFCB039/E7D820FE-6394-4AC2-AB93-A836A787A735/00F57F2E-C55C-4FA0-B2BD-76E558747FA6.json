@@ -1,8 +1,8 @@
 {
-  "_class": "page",
+  "_class": "symbolInstance",
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "9394638B-EC33-47C8-BC0A-FD6792D8E315",
+  "do_objectID": "00F57F2E-C55C-4FA0-B2BD-76E558747FA6",
   "exportOptions": {
     "_class": "exportOptions",
     "exportFormats": [
@@ -15,48 +15,27 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 0,
-    "width": 0,
-    "x": 0,
+    "height": 87,
+    "width": 87,
+    "x": 105,
     "y": 0
   },
-  "groupLayout": {
-    "_class": "MSImmutableFreeformGroupLayout"
-  },
-  "hasClickThrough": true,
   "hasClippingMask": false,
-  "horizontalRulerData": {
-    "_class": "rulerData",
-    "base": 0,
-    "guides": [
-    ]
-  },
-  "includeInCloudUpload": true,
+  "horizontalSpacing": 0,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
   "isLocked": false,
   "isVisible": true,
   "layerListExpandedType": 0,
-  "layers": [
-    {
-      "class": "artboard",
-      "id": "9CE1EB98-18E6-466A-8BED-A539DEFCB039"
-    },
-    {
-      "class": "artboard",
-      "id": "C1BF6078-4B7C-4462-82BA-239F96298178"
-    },
-    {
-      "class": "artboard",
-      "id": "9D88368D-6294-4EE0-820A-F734889145B1"
-    }
-  ],
-  "name": "Page 1",
+  "name": "Glyphs / Bar Button / Play / Light",
   "nameIsFixed": false,
+  "overrideValues": [
+  ],
   "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
+  "scale": 1,
   "shouldBreakMaskChain": false,
   "style": {
     "_class": "style",
@@ -65,10 +44,6 @@
     "startMarkerType": 0,
     "windingRule": 1
   },
-  "verticalRulerData": {
-    "_class": "rulerData",
-    "base": 0,
-    "guides": [
-    ]
-  }
+  "symbolID": "1E4C6738-3412-44B0-9293-A963B4492263",
+  "verticalSpacing": 0
 }

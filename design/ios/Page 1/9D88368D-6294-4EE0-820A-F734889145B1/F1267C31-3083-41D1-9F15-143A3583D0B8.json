@@ -1,0 +1,83 @@
+{
+  "_class": "symbolInstance",
+  "booleanOperation": -1,
+  "clippingMaskMode": 0,
+  "do_objectID": "F1267C31-3083-41D1-9F15-143A3583D0B8",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "flow": {
+    "_class": "MSImmutableFlowConnection",
+    "animationType": 0,
+    "destinationArtboardID": "C1BF6078-4B7C-4462-82BA-239F96298178",
+    "do_objectID": "613935F0-39A1-4681-9228-722EBB19DF2A"
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": false,
+    "height": 60,
+    "width": 375,
+    "x": 1,
+    "y": 88
+  },
+  "hasClippingMask": false,
+  "horizontalSpacing": 0,
+  "isFixedToViewport": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 0,
+  "name": "Controls / TableViewCell / Compact / Light - Large",
+  "nameIsFixed": false,
+  "overrideValues": [
+    {
+      "_class": "overrideValue",
+      "do_objectID": "A973766A-A89F-4AE3-A883-2291FD9D52E4",
+      "overrideName": "E3340855-5749-4D8F-BEAA-75265628AD45_symbolID",
+      "value": "2254D148-5B74-4348-B206-FEC2D80CDF86"
+    },
+    {
+      "_class": "overrideValue",
+      "do_objectID": "9E0E5656-575D-49F6-BA3A-BB49657A9A5C",
+      "overrideName": "E3340855-5749-4D8F-BEAA-75265628AD45/682A9E3F-2A95-4687-97DA-29C0102EEB68/21E48068-7294-4079-A5BB-8FFAC31AFEEB_stringValue",
+      "value": "The Goodlion Podcast"
+    },
+    {
+      "_class": "overrideValue",
+      "do_objectID": "DB951F8C-0AE8-4D1D-99B6-51739F342DB5",
+      "overrideName": "E3340855-5749-4D8F-BEAA-75265628AD45/682A9E3F-2A95-4687-97DA-29C0102EEB68/2F3FC2EE-9ACE-456C-959D-E68C7725C643_stringValue",
+      "value": "AARON SALVATO, GOODLION"
+    },
+    {
+      "_class": "overrideValue",
+      "do_objectID": "6932438C-0293-4E31-8AE4-EA7FC95C0FA8",
+      "overrideName": "E3340855-5749-4D8F-BEAA-75265628AD45/BDEA5159-35FB-4EF1-90FE-7D9F64025C4F_image",
+      "value": {
+        "_class": "MSJSONFileReference",
+        "_ref": "images/9435b0309cd28d9f98056ead441304303dc0f44c.png",
+        "_ref_class": "MSImageData"
+      }
+    }
+  ],
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "scale": 1,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "endMarkerType": 0,
+    "miterLimit": 10,
+    "startMarkerType": 0,
+    "windingRule": 1
+  },
+  "symbolID": "818AF18E-8458-4CD7-A951-B368F9AF6C10",
+  "verticalSpacing": 0
+}

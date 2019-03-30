@@ -1,8 +1,15 @@
 {
-  "_class": "page",
+  "_class": "artboard",
+  "backgroundColor": {
+    "_class": "color",
+    "alpha": 1,
+    "blue": 1,
+    "green": 1,
+    "red": 1
+  },
   "booleanOperation": -1,
   "clippingMaskMode": 0,
-  "do_objectID": "9394638B-EC33-47C8-BC0A-FD6792D8E315",
+  "do_objectID": "C1BF6078-4B7C-4462-82BA-239F96298178",
   "exportOptions": {
     "_class": "exportOptions",
     "exportFormats": [
@@ -15,14 +22,15 @@
   "frame": {
     "_class": "rect",
     "constrainProportions": false,
-    "height": 0,
-    "width": 0,
-    "x": 0,
-    "y": 0
+    "height": 667,
+    "width": 375,
+    "x": 999,
+    "y": 246
   },
   "groupLayout": {
     "_class": "MSImmutableFreeformGroupLayout"
   },
+  "hasBackgroundColor": false,
   "hasClickThrough": true,
   "hasClippingMask": false,
   "horizontalRulerData": {
@@ -31,33 +39,51 @@
     "guides": [
     ]
   },
+  "includeBackgroundColorInExport": true,
   "includeInCloudUpload": true,
   "isFixedToViewport": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
+  "isFlowHome": false,
   "isLocked": false,
   "isVisible": true,
   "layerListExpandedType": 0,
   "layers": [
     {
-      "class": "artboard",
-      "id": "9CE1EB98-18E6-466A-8BED-A539DEFCB039"
+      "class": "symbolInstance",
+      "id": "33539627-BC95-483A-B49B-0C039F23BE54"
     },
     {
-      "class": "artboard",
-      "id": "C1BF6078-4B7C-4462-82BA-239F96298178"
+      "class": "symbolInstance",
+      "id": "83A7464F-414B-4EDA-AD97-562C0EB2B611"
     },
     {
-      "class": "artboard",
-      "id": "9D88368D-6294-4EE0-820A-F734889145B1"
+      "class": "symbolInstance",
+      "id": "0593F6DF-B729-4ED0-82FC-6817EF6B5CFD"
+    },
+    {
+      "class": "symbolInstance",
+      "id": "FFDA9C43-28FD-4BA9-B009-672A554875E1"
+    },
+    {
+      "class": "symbolInstance",
+      "id": "D114E3E3-28E8-4D45-8EBC-0DA2A54639AA"
     }
   ],
-  "name": "Page 1",
-  "nameIsFixed": false,
+  "name": "Episodes",
+  "nameIsFixed": true,
+  "presetDictionary": {
+    "allowResizedMatching": 1,
+    "height": 667,
+    "name": "iPhone 8",
+    "offersLandscapeVariant": 1,
+    "width": 375
+  },
+  "resizesContent": true,
   "resizingConstraint": 63,
   "resizingType": 0,
   "rotation": 0,
-  "shouldBreakMaskChain": false,
+  "shouldBreakMaskChain": true,
   "style": {
     "_class": "style",
     "endMarkerType": 0,
