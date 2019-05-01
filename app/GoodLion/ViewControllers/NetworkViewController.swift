@@ -9,6 +9,7 @@
 import Kingfisher
 import SwiftAudio
 import UIKit
+import AVFoundation
 
 class NetworkViewController: UIViewController {
     let networkController = NetworkController()
@@ -26,7 +27,7 @@ class NetworkViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        try! AudioSessionController.shared.set(category: .playback)
+        try! AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.mixWithOthers, .allowAirPlay])
     }
 }
 
