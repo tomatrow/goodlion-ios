@@ -45,8 +45,6 @@ class EpisodeViewController: UIViewController {
     private func loadPlayer() {
         guard let episode = episode else { return }
         let url = episode.media.url
-        try! AudioSessionController.shared.set(category: .playback)
-        try! AudioSessionController.shared.activateSession()
         let audioItem = DefaultAudioItem(audioUrl: url.absoluteString, sourceType: .stream)
         try! player.load(item: audioItem, playWhenReady: false)
 
@@ -88,10 +86,16 @@ class EpisodeViewController: UIViewController {
         player.seek(to: player.currentTime + sign * 30.0)
     }
 
-    @IBAction
-
-    func playButtonTapped() {
+    @IBAction func playButtonTapped() {
+        activateAudioSession()
         player.togglePlaying()
+    }
+
+    func activateAudioSession() {
+        let audioSessionController = AudioSessionController.shared
+        if !audioSessionController.audioSessionIsActive {
+            try! audioSessionController.activateSession()
+        }
     }
 }
 
