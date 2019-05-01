@@ -6,9 +6,9 @@
 //  Copyright © 2019 Hesed Creative. All rights reserved.
 //
 
+import Kingfisher
 import SwiftAudio
 import UIKit
-import Kingfisher
 
 // THe Library: https://github.com/jorgenhenrichsen/SwiftAudio
 
@@ -20,22 +20,26 @@ class EpisodeViewController: UIViewController {
         }
     }
 
-    @IBOutlet weak var timeRemainingLabel: UILabel!
-    @IBOutlet weak var timeElapsedLebel: UILabel!
-    @IBOutlet weak var scrubSlider: UISlider!
-    @IBOutlet weak var coverImageView: UIImageView!
-    @IBOutlet weak var playButton: UIButton!
+    @IBOutlet var timeRemainingLabel: UILabel!
+    @IBOutlet var timeElapsedLebel: UILabel!
+    @IBOutlet var scrubSlider: UISlider!
+    @IBOutlet var coverImageView: UIImageView!
+    @IBOutlet var toolbar: UIToolbar!
     let player = AudioPlayer()
 
     @IBAction func scrubberUpdated(_ sender: UISlider) {
         player.seek(to: TimeInterval(sender.value))
     }
+
     private func configureView() {
         guard let episode = episode, let coverImageView = coverImageView else { return }
         coverImageView.kf.setImage(with: episode.cover)
-        scrubSlider.value = 0 
-        scrubSlider.minimumValue = 0 
+        scrubSlider.value = 0
+        scrubSlider.minimumValue = 0
         scrubSlider.maximumValue = Float(episode.duration)
+        timeElapsedLebel.text = playbackFormatter.string(from: 0)
+        timeRemainingLabel.text = playbackFormatter.string(from: episode.duration)
+        navigationItem.title = episode.title
     }
 
     private func loadPlayer() {
@@ -45,9 +49,13 @@ class EpisodeViewController: UIViewController {
         try! AudioSessionController.shared.activateSession()
         let audioItem = DefaultAudioItem(audioUrl: url.absoluteString, sourceType: .stream)
         try! player.load(item: audioItem, playWhenReady: false)
+
         player.event.stateChange.addListener(self) { state in
+
             DispatchQueue.main.async {
-                self.playButton.setTitle(state.toggleActionDescription, for: .normal)
+                let item: UIBarButtonItem.SystemItem
+                item = state == .playing ? .pause : .play
+                self.toolbar.items![2] = UIBarButtonItem(barButtonSystemItem: item, target: self, action: #selector(EpisodeViewController.playButtonTapped))
             }
         }
         player.event.secondElapse.addListener(self) { interval in
@@ -55,19 +63,34 @@ class EpisodeViewController: UIViewController {
 
             DispatchQueue.main.async {
                 self.scrubSlider.value = Float(interval)
-                self.timeElapsedLebel.text = interval.description
-                self.timeRemainingLabel.text = (episode.duration - interval).description
-                
+
+                self.timeElapsedLebel.text = self.playbackFormatter.string(from: interval)!
+                self.timeRemainingLabel.text = self.playbackFormatter.string(from: episode.duration - interval)!
             }
         }
     }
+
+    let playbackFormatter: DateComponentsFormatter = {
+        let formatter = DateComponentsFormatter()
+        formatter.allowedUnits = [.hour, .minute, .second]
+        formatter.unitsStyle = .positional
+        formatter.zeroFormattingBehavior = .dropLeading
+        return formatter
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         configureView()
     }
 
-    @IBAction func buttonTapped(_: Any) {
+    @IBAction func skipTapped(_ sender: UIBarButtonItem) {
+        let sign: Double = sender.title?.first! == "+" ? 1 : -1
+        player.seek(to: player.currentTime + sign * 30.0)
+    }
+
+    @IBAction
+
+    func playButtonTapped() {
         player.togglePlaying()
     }
 }
@@ -80,5 +103,5 @@ extension AudioPlayerState {
         default:
             return "Play"
         }
-    } 
+    }
 }

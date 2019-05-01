@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EpisodeListHeaderView" customModule="GoodLion" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EpisodeListHeaderView" customModule="GoodLion" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="450" height="346"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="748" translatesAutoresizingMaskIntoConstraints="NO" id="0HQ-7a-8Up" userLabel="Cover">
+                    <rect key="frame" x="10" y="30" width="108" height="108"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="0HQ-7a-8Up" secondAttribute="height" multiplier="1:1" id="orK-lK-LlK"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="9"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" text="AARON SALVATO &amp; GOODLION" lineBreakMode="clip" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t5o-0f-XUG" userLabel="Author">
+                    <rect key="frame" x="138" y="74" width="292" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a3b-QD-ATx" userLabel="Description">
+                    <rect key="frame" x="10" y="148" width="430" height="188"/>
+                    <string key="text">The official podcast of the GoodLion Podcast Network! We are a network that aspires to bring you creative and encouraging content that centers around faith in Jesus. This is a collaborative feed that includes many different podcasters and guests from across the network. For more info, visit our website GoodLion.io</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="t5o-0f-XUG" secondAttribute="trailing" constant="20" id="5sf-lN-xQh"/>
+                <constraint firstItem="a3b-QD-ATx" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-10" id="ADC-Oi-BMo"/>
+                <constraint firstItem="0HQ-7a-8Up" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="Dju-P5-WUw"/>
+                <constraint firstItem="a3b-QD-ATx" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="-10" id="JSu-lD-RXN"/>
+                <constraint firstItem="0HQ-7a-8Up" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.24" id="f4e-Ib-dX3"/>
+                <constraint firstItem="t5o-0f-XUG" firstAttribute="centerY" secondItem="0HQ-7a-8Up" secondAttribute="centerY" id="h1F-IF-qv6"/>
+                <constraint firstItem="0HQ-7a-8Up" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="q6s-kv-csh"/>
+                <constraint firstItem="0HQ-7a-8Up" firstAttribute="trailing" secondItem="t5o-0f-XUG" secondAttribute="leading" constant="-20" id="rud-gw-y2Y"/>
+                <constraint firstItem="a3b-QD-ATx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="xvT-i4-3q2"/>
+                <constraint firstItem="a3b-QD-ATx" firstAttribute="top" secondItem="0HQ-7a-8Up" secondAttribute="bottom" constant="10" id="zsb-eH-0ex"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="authorLabel" destination="t5o-0f-XUG" id="ZGs-Az-22y"/>
+                <outlet property="coverImageView" destination="0HQ-7a-8Up" id="Wtf-oJ-dbU"/>
+                <outlet property="descriptionLabel" destination="a3b-QD-ATx" id="Dvu-VM-dNo"/>
+            </connections>
+            <point key="canvasLocation" x="56.25" y="-2.112676056338028"/>
+        </view>
+    </objects>
+</document>

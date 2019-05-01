@@ -7,28 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50148455226FAB3D00A6C532 /* NetworkHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50148454226FAB3D00A6C532 /* NetworkHeaderView.swift */; };
 		503A260C22336529003D3D5F /* CoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A260B22336529003D3D5F /* CoverCell.swift */; };
 		503A260E22336773003D3D5F /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503A260D22336773003D3D5F /* Kingfisher.framework */; };
 		50443677223219740051775F /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50443676223219740051775F /* Podcast.swift */; };
 		504489AC2234326B0040980B /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504489AB2234326B0040980B /* PodcastViewController.swift */; };
 		504489AE2234709D0040980B /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504489AD2234709D0040980B /* EpisodeViewController.swift */; };
+		5075A0C22267EC41008C7A7D /* EpisodeListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5075A0C12267EC41008C7A7D /* EpisodeListHeaderView.xib */; };
 		508624C8223A0A520085E2F1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508624C7223A0A520085E2F1 /* Alamofire.framework */; };
+		5087DBD6227179C300A353A7 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087DBD5227179C300A353A7 /* Moya.framework */; };
+		5087DBDA2271A01B00A353A7 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087DBD92271A01B00A353A7 /* Result.framework */; };
+		5094733622667EC700380988 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5094733522667EC700380988 /* FetchController.swift */; };
+		509473442266D26600380988 /* EpisodeListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509473432266D26600380988 /* EpisodeListHeaderView.swift */; };
+		509473462266D6A900380988 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509473452266D6A900380988 /* EpisodeCell.swift */; };
 		50AF558D2230F7700034F824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF558C2230F7700034F824 /* AppDelegate.swift */; };
 		50AF558F2230F7700034F824 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AF558E2230F7700034F824 /* NetworkViewController.swift */; };
 		50AF55922230F7700034F824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AF55902230F7700034F824 /* Main.storyboard */; };
 		50AF55942230F7720034F824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AF55932230F7720034F824 /* Assets.xcassets */; };
 		50AF55972230F7720034F824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AF55952230F7720034F824 /* LaunchScreen.storyboard */; };
 		50AF55A322310CD00034F824 /* FeedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AF55A222310CD00034F824 /* FeedKit.framework */; };
+		50DE12D1227A27B900518771 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DE12D0227A27B900518771 /* ViewExtensions.swift */; };
+		50DF786B225EA3EA003CF653 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF786A225EA3EA003CF653 /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50148454226FAB3D00A6C532 /* NetworkHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHeaderView.swift; sourceTree = "<group>"; };
 		503A260B22336529003D3D5F /* CoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverCell.swift; sourceTree = "<group>"; };
 		503A260D22336773003D3D5F /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		50443676223219740051775F /* Podcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
 		504489AB2234326B0040980B /* PodcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastViewController.swift; sourceTree = "<group>"; };
 		504489AD2234709D0040980B /* EpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
+		5075A0C12267EC41008C7A7D /* EpisodeListHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeListHeaderView.xib; sourceTree = "<group>"; };
 		508624C5223A0A3E0085E2F1 /* SwiftAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftAudio.framework; path = Carthage/Build/iOS/SwiftAudio.framework; sourceTree = "<group>"; };
 		508624C7223A0A520085E2F1 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5087DBD5227179C300A353A7 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		5087DBD92271A01B00A353A7 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		5094733522667EC700380988 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
+		509473432266D26600380988 /* EpisodeListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListHeaderView.swift; sourceTree = "<group>"; };
+		509473452266D6A900380988 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
 		50AF55892230F7700034F824 /* GoodLion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodLion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AF558C2230F7700034F824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50AF558E2230F7700034F824 /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +53,8 @@
 		50AF55962230F7720034F824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50AF55982230F7720034F824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AF55A222310CD00034F824 /* FeedKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FeedKit.framework; path = Carthage/Build/iOS/FeedKit.framework; sourceTree = "<group>"; };
+		50DE12D0227A27B900518771 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		50DF786A225EA3EA003CF653 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5087DBDA2271A01B00A353A7 /* Result.framework in Frameworks */,
 				508624C8223A0A520085E2F1 /* Alamofire.framework in Frameworks */,
+				5087DBD6227179C300A353A7 /* Moya.framework in Frameworks */,
 				503A260E22336773003D3D5F /* Kingfisher.framework in Frameworks */,
 				50AF55A322310CD00034F824 /* FeedKit.framework in Frameworks */,
 			);
@@ -53,6 +73,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		509473422266CEFB00380988 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50DE12D0227A27B900518771 /* ViewExtensions.swift */,
+				50148454226FAB3D00A6C532 /* NetworkHeaderView.swift */,
+				509473452266D6A900380988 /* EpisodeCell.swift */,
+				503A260B22336529003D3D5F /* CoverCell.swift */,
+				509473432266D26600380988 /* EpisodeListHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		50AF55802230F7700034F824 = {
 			isa = PBXGroup;
 			children = (
@@ -73,16 +105,14 @@
 		50AF558B2230F7700034F824 /* GoodLion */ = {
 			isa = PBXGroup;
 			children = (
-				50AF558C2230F7700034F824 /* AppDelegate.swift */,
-				50AF558E2230F7700034F824 /* NetworkViewController.swift */,
-				504489AB2234326B0040980B /* PodcastViewController.swift */,
-				504489AD2234709D0040980B /* EpisodeViewController.swift */,
-				503A260B22336529003D3D5F /* CoverCell.swift */,
-				50443676223219740051775F /* Podcast.swift */,
-				50AF55902230F7700034F824 /* Main.storyboard */,
-				50AF55932230F7720034F824 /* Assets.xcassets */,
-				50AF55952230F7720034F824 /* LaunchScreen.storyboard */,
 				50AF55982230F7720034F824 /* Info.plist */,
+				50AF55952230F7720034F824 /* LaunchScreen.storyboard */,
+				50C7B2A1226A769000509785 /* Needed */,
+				50DF7869225EA3B7003CF653 /* ModelControllers */,
+				50C7B29F226A763F00509785 /* ViewControllers */,
+				50C7B2A0226A765300509785 /* Models */,
+				509473422266CEFB00380988 /* Views */,
+				50C7B2A2226A76C100509785 /* Interface */,
 			);
 			path = GoodLion;
 			sourceTree = "<group>";
@@ -90,12 +120,59 @@
 		50AF55A122310CD00034F824 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5087DBD92271A01B00A353A7 /* Result.framework */,
+				5087DBD5227179C300A353A7 /* Moya.framework */,
 				508624C7223A0A520085E2F1 /* Alamofire.framework */,
 				508624C5223A0A3E0085E2F1 /* SwiftAudio.framework */,
 				503A260D22336773003D3D5F /* Kingfisher.framework */,
 				50AF55A222310CD00034F824 /* FeedKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50C7B29F226A763F00509785 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				50AF558E2230F7700034F824 /* NetworkViewController.swift */,
+				504489AB2234326B0040980B /* PodcastViewController.swift */,
+				504489AD2234709D0040980B /* EpisodeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		50C7B2A0226A765300509785 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				50443676223219740051775F /* Podcast.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		50C7B2A1226A769000509785 /* Needed */ = {
+			isa = PBXGroup;
+			children = (
+				50AF558C2230F7700034F824 /* AppDelegate.swift */,
+				50AF55932230F7720034F824 /* Assets.xcassets */,
+			);
+			path = Needed;
+			sourceTree = "<group>";
+		};
+		50C7B2A2226A76C100509785 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				50AF55902230F7700034F824 /* Main.storyboard */,
+				5075A0C12267EC41008C7A7D /* EpisodeListHeaderView.xib */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		50DF7869225EA3B7003CF653 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				50DF786A225EA3EA003CF653 /* NetworkController.swift */,
+				5094733522667EC700380988 /* FetchController.swift */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +208,7 @@
 				TargetAttributes = {
 					50AF55882230F7700034F824 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -159,6 +237,7 @@
 			files = (
 				50AF55972230F7720034F824 /* LaunchScreen.storyboard in Resources */,
 				50AF55942230F7720034F824 /* Assets.xcassets in Resources */,
+				5075A0C22267EC41008C7A7D /* EpisodeListHeaderView.xib in Resources */,
 				50AF55922230F7700034F824 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +257,8 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftAudio.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
 			);
 			outputFileListPaths = (
 			);
@@ -199,6 +280,12 @@
 				504489AC2234326B0040980B /* PodcastViewController.swift in Sources */,
 				503A260C22336529003D3D5F /* CoverCell.swift in Sources */,
 				504489AE2234709D0040980B /* EpisodeViewController.swift in Sources */,
+				509473462266D6A900380988 /* EpisodeCell.swift in Sources */,
+				50148455226FAB3D00A6C532 /* NetworkHeaderView.swift in Sources */,
+				50DF786B225EA3EA003CF653 /* NetworkController.swift in Sources */,
+				5094733622667EC700380988 /* FetchController.swift in Sources */,
+				509473442266D26600380988 /* EpisodeListHeaderView.swift in Sources */,
+				50DE12D1227A27B900518771 /* ViewExtensions.swift in Sources */,
 				50443677223219740051775F /* Podcast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +370,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -337,6 +425,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -358,7 +447,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ajcaldwell.GoodLion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -380,7 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ajcaldwell.GoodLion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
