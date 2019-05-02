@@ -71,7 +71,7 @@ extension PodcastViewController: UITableViewDelegate {
 
         header.authorLabel.text = podcast!.author
         header.descriptionLabel.text = podcast!.description
-        header.coverImageView.kf.setImage(with: podcast!.cover)
+        header.coverImageView.setImage(from: podcast!.cover)
 
         return header
     }

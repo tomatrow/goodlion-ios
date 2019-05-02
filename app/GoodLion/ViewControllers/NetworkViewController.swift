@@ -6,7 +6,6 @@
 //  Copyright © 2019 Hesed Creative. All rights reserved.
 //
 
-import Kingfisher
 import SwiftAudio
 import UIKit
 import AVFoundation
@@ -70,7 +69,7 @@ extension NetworkViewController: UICollectionViewDataSource {
         if section == 0 {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "EpisodeCell", for: indexPath) as! EpisodeCell
             let episode = networkController.mostRecent[row]
-            cell.imageView.kf.setImage(with: episode.cover)
+            cell.imageView.setImage(from: episode.cover)
             cell.titleLabel.text = episode.title
             cell.subtitleLabel.text = episode.timeDescription
             cell.tag = row
@@ -81,7 +80,7 @@ extension NetworkViewController: UICollectionViewDataSource {
             let podcast = networkController.network[row]
             cell.tag = row
 
-            cell.imageView.kf.setImage(with: podcast.cover)
+            cell.imageView.setImage(from: podcast.cover)
 
             return cell
         } else {

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Kingfisher
 import UIKit
 
 // https://nshipster.com/ibinspectable-ibdesignable/
@@ -21,3 +22,10 @@ extension UIView {
         }
     }
 }
+
+extension UIImageView {
+    func setImage(from url: URL) {
+        kf.setImage(with: url)
+    }
+}
+

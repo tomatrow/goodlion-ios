@@ -6,7 +6,6 @@
 //  Copyright © 2019 Hesed Creative. All rights reserved.
 //
 
-import Kingfisher
 import SwiftAudio
 import UIKit
 
@@ -33,7 +32,7 @@ class EpisodeViewController: UIViewController {
 
     private func configureView() {
         guard let episode = episode, let coverImageView = coverImageView else { return }
-        coverImageView.kf.setImage(with: episode.cover)
+        coverImageView.setImage(from: episode.cover)
         scrubSlider.value = 0
         scrubSlider.minimumValue = 0
         scrubSlider.maximumValue = Float(episode.duration)
