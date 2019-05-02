@@ -117,9 +117,3 @@ extension NetworkViewController: NetworkControllerDelegate {
         collectionView.reloadData()
     }
 }
-
-extension UICollectionView {
-    var flowLayout: UICollectionViewFlowLayout? {
-        return collectionViewLayout as? UICollectionViewFlowLayout
-    }
-}
