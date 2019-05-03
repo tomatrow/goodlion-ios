@@ -18,7 +18,7 @@ protocol FetchController {
 
 struct ServerFetchContoller: FetchController {
     func load(url: URL, on completion: @escaping FetchControllerCompletion) {
-        request(url).responseData { response in
+        SessionManager.default.request(url).responseData { response in
 
             guard case let .success(podcastData) = response.result else {
                 completion(nil, url)
