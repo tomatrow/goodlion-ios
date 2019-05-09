@@ -10,6 +10,7 @@ import Foundation
 
 protocol NetworkControllerDelegate: AnyObject {
     func didLoad(podcast: Podcast)
+    func finishedLoading()
 }
 
 class NetworkController {
@@ -34,12 +35,16 @@ extension NetworkController {
             "https://anchor.fm/s/fac544/podcast/rss", // ask-a-youth-pastor
             "http://feeds.feedburner.com/VoxHibernia", // vox
         ]
-
+        var loadCount = 0 
         for url in info {
             fetcher.load(url: try! url.asURL()) { podcast, _ in
                 guard let podcast = podcast else { return }
                 DispatchQueue.main.async { [unowned self] in
                     self.add(podcast: podcast)
+                    loadCount += 1
+                    if loadCount == info.count {
+                        self.delegate?.finishedLoading()
+                    }
                 }
             }
         }

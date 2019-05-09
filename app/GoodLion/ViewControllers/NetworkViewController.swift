@@ -113,6 +113,8 @@ extension NetworkViewController {
 
 extension NetworkViewController: NetworkControllerDelegate {
     func didLoad(podcast _: Podcast) {
+    }
+    func finishedLoading() {
         collectionView.reloadData()
     }
 }
