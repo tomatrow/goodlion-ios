@@ -46,7 +46,11 @@ extension NetworkController {
     }
 
     private func add(podcast: Podcast) {
-        network.append(podcast)
+        if let index = network.firstIndex(where: { $0.rssUrl == podcast.rssUrl }) {
+            network[index] = podcast
+        } else {
+            network.append(podcast)
+        }
         network.sort { left, right in left.title < right.title }
         delegate?.didLoad(podcast: podcast)
     }
