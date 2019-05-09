@@ -37,13 +37,14 @@ struct ServerFetchContoller: FetchController {
 }
 
 extension Podcast {
-    init(feedUrl _: URL, rssFeed: RSSFeed) {
+    init(feedUrl url: URL, rssFeed: RSSFeed) {
         title = rssFeed.title!
         author = rssFeed.iTunes!.iTunesAuthor!
         description = rssFeed.description ?? rssFeed.iTunes?.iTunesSummary ?? "The \(rssFeed.title!) podcast."
         let podcastCoverString = rssFeed.image?.url ?? rssFeed.iTunes!.iTunesImage!.attributes!.href!
         let podcastCoverUrl = URL(string: podcastCoverString)!
         cover = podcastCoverUrl
+        rssUrl = url
 
         episodes = rssFeed.items!.map { item -> Episode in
             let att = item.enclosure!.attributes!

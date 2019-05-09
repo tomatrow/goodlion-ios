@@ -29,4 +29,5 @@ struct Podcast {
     var description: String
     var cover: URL
     var author: String
+    var rssUrl: URL
 }
