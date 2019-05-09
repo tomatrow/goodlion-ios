@@ -9,14 +9,10 @@
 /* Begin PBXBuildFile section */
 		50148455226FAB3D00A6C532 /* NetworkHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50148454226FAB3D00A6C532 /* NetworkHeaderView.swift */; };
 		503A260C22336529003D3D5F /* CoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503A260B22336529003D3D5F /* CoverCell.swift */; };
-		503A260E22336773003D3D5F /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503A260D22336773003D3D5F /* Kingfisher.framework */; };
 		50443677223219740051775F /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50443676223219740051775F /* Podcast.swift */; };
 		504489AC2234326B0040980B /* PodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504489AB2234326B0040980B /* PodcastViewController.swift */; };
 		504489AE2234709D0040980B /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504489AD2234709D0040980B /* EpisodeViewController.swift */; };
 		5075A0C22267EC41008C7A7D /* EpisodeListHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5075A0C12267EC41008C7A7D /* EpisodeListHeaderView.xib */; };
-		508624C8223A0A520085E2F1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508624C7223A0A520085E2F1 /* Alamofire.framework */; };
-		5087DBD6227179C300A353A7 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087DBD5227179C300A353A7 /* Moya.framework */; };
-		5087DBDA2271A01B00A353A7 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087DBD92271A01B00A353A7 /* Result.framework */; };
 		5094733622667EC700380988 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5094733522667EC700380988 /* FetchController.swift */; };
 		509473442266D26600380988 /* EpisodeListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509473432266D26600380988 /* EpisodeListHeaderView.swift */; };
 		509473462266D6A900380988 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509473452266D6A900380988 /* EpisodeCell.swift */; };
@@ -27,6 +23,9 @@
 		50AF55972230F7720034F824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AF55952230F7720034F824 /* LaunchScreen.storyboard */; };
 		50AF55A322310CD00034F824 /* FeedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AF55A222310CD00034F824 /* FeedKit.framework */; };
 		50DE12D1227A27B900518771 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DE12D0227A27B900518771 /* ViewExtensions.swift */; };
+		50DE12D2227A38B100518771 /* SwiftAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508624C5223A0A3E0085E2F1 /* SwiftAudio.framework */; };
+		50DE12D3227A38C500518771 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508624C7223A0A520085E2F1 /* Alamofire.framework */; };
+		50DE12D6227A45B100518771 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503A260D22336773003D3D5F /* Kingfisher.framework */; };
 		50DF786B225EA3EA003CF653 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF786A225EA3EA003CF653 /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +53,7 @@
 		50AF55982230F7720034F824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AF55A222310CD00034F824 /* FeedKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FeedKit.framework; path = Carthage/Build/iOS/FeedKit.framework; sourceTree = "<group>"; };
 		50DE12D0227A27B900518771 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		50DE12D4227A38E600518771 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 		50DF786A225EA3EA003CF653 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,10 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5087DBDA2271A01B00A353A7 /* Result.framework in Frameworks */,
-				508624C8223A0A520085E2F1 /* Alamofire.framework in Frameworks */,
-				5087DBD6227179C300A353A7 /* Moya.framework in Frameworks */,
-				503A260E22336773003D3D5F /* Kingfisher.framework in Frameworks */,
+				50DE12D6227A45B100518771 /* Kingfisher.framework in Frameworks */,
+				50DE12D3227A38C500518771 /* Alamofire.framework in Frameworks */,
+				50DE12D2227A38B100518771 /* SwiftAudio.framework in Frameworks */,
 				50AF55A322310CD00034F824 /* FeedKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +119,7 @@
 		50AF55A122310CD00034F824 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				50DE12D4227A38E600518771 /* AlamofireImage.framework */,
 				5087DBD92271A01B00A353A7 /* Result.framework */,
 				5087DBD5227179C300A353A7 /* Moya.framework */,
 				508624C7223A0A520085E2F1 /* Alamofire.framework */,
@@ -259,11 +259,9 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/FeedKit.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/SwiftAudio.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
 			);
 			outputFileListPaths = (
 			);
