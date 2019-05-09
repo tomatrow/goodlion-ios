@@ -21,6 +21,7 @@ class NetworkViewController: UIViewController {
         collectionView.dataSource = self
         networkController.delegate = self
         networkController.load()
+        enableRefresh()
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -109,12 +110,25 @@ extension NetworkViewController {
             assert(false)
         }
     }
+    
+    
+    @objc func refresh() {
+        networkController.load()
+    }
+    
+    func enableRefresh() {
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
+        collectionView.refreshControl = refreshControl
+    }
 }
 
 extension NetworkViewController: NetworkControllerDelegate {
     func didLoad(podcast _: Podcast) {
     }
+    
     func finishedLoading() {
+        collectionView.refreshControl?.endRefreshing()
         collectionView.reloadData()
     }
 }
